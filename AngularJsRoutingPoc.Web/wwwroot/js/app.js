@@ -50,7 +50,7 @@
             });
 
         var configObj = {
-            apiBasePath: 'http://localhost:5001/api/v1/',
+            apiBasePath: 'http://localhost:5000/api/v1/',
             unknownErrorMsg: 'Something went wrong! Try again after sometime.'
         };
 
