@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AngularJsRoutingPoc.ApiModules.Grocery\AngularJsRoutingPoc.ApiModules.Grocery.csproj" />
+    <ProjectReference Include="..\AngularJsRoutingPoc.Business.Grocery\AngularJsRoutingPoc.Business.Grocery.csproj" />
+    <ProjectReference Include="..\AngularJsRoutingPoc.Business.Interfaces\AngularJsRoutingPoc.Business.Interfaces.csproj" />
+    <ProjectReference Include="..\AngularJsRoutingPoc.DataAccess.Grocery\AngularJsRoutingPoc.DataAccess.Grocery.csproj" />
+    <ProjectReference Include="..\AngularJsRoutingPoc.DataAccess.Interfaces\AngularJsRoutingPoc.DataAccess.Interfaces.csproj" />
+    <ProjectReference Include="..\AngularJsRoutingPoc.Entities\AngularJsRoutingPoc.Entities.csproj" />
+  </ItemGroup>
+
+
+</Project>

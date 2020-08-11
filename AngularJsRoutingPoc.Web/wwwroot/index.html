@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html ng-app="RoutingPocApp">
+<head>
+    <meta charset="utf-8" />
+    <base href="http://localhost:5000/" />
+    <title>Grocery Manager</title>
+    <link href="css/vendor/bootstrap.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />
+</head>
+<body>
+
+    <ng-include src="'pages/shared/header.html'"></ng-include>
+
+    <main role="main" class="container">
+        <div ui-view="lazyLoadViews"></div>
+    </main>
+
+    <ng-include src="'pages/shared/footer.html'"></ng-include>
+
+    <script src="js/lib/angular.js"></script>
+    <script src="js/lib/angular-ui-router.min.js"></script>
+    <script src="js/lib/ocLazyLoad.min.js"></script>
+
+    <script src="js/app.js"></script>
+    <script src="js/appCommon.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Presentation", "01. Presentation", "{E3052939-58C0-4155-8F6E-F759CCFA00A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Service", "02. Service", "{51AB12DB-ED53-4392-9853-82BF2D94FE4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngularJsRoutingPoc.Web", "AngularJsRoutingPoc.Web\AngularJsRoutingPoc.Web.csproj", "{6DD01B49-0043-44BA-9A1B-686EDD0E66F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngularJsRoutingPoc.Api", "AngularJsRoutingPoc.Api\AngularJsRoutingPoc.Api.csproj", "{0CA36A67-9847-481F-A4D6-2F5DEEBC1254}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Business", "03. Business", "{EDC1A163-F5AD-4364-9AE7-08426E6CB798}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. DataAccess", "04. DataAccess", "{3626E103-2966-4AF2-98B9-3252A39B5189}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceModules", "ServiceModules", "{E1CA2E18-BD90-46B4-B3EC-22B6E7A3BA15}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngularJsRoutingPoc.ApiModules.Grocery", "AngularJsRoutingPoc.ApiModules.Grocery\AngularJsRoutingPoc.ApiModules.Grocery.csproj", "{31F7EBE4-A549-471E-BC7A-F4E9D86C81BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Common", "05. Common", "{6284305F-7A04-4997-A5A8-CBD4B0BFEDEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngularJsRoutingPoc.Entities", "AngularJsRoutingPoc.Entities\AngularJsRoutingPoc.Entities.csproj", "{687373E3-D852-4E17-8080-E8E60C17A373}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngularJsRoutingPoc.Business.Grocery", "AngularJsRoutingPoc.Business.Grocery\AngularJsRoutingPoc.Business.Grocery.csproj", "{ADA12515-A26D-4D9F-BB4A-C16F7626DB9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngularJsRoutingPoc.Business.Interfaces", "AngularJsRoutingPoc.Business.Interfaces\AngularJsRoutingPoc.Business.Interfaces.csproj", "{FA756751-0C7A-4370-9DE5-B18C7133880A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngularJsRoutingPoc.DataAccess.Interfaces", "AngularJsRoutingPoc.DataAccess.Interfaces\AngularJsRoutingPoc.DataAccess.Interfaces.csproj", "{853F6407-46B8-4F97-82A0-3F02DFAAC432}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngularJsRoutingPoc.DataAccess.Grocery", "AngularJsRoutingPoc.DataAccess.Grocery\AngularJsRoutingPoc.DataAccess.Grocery.csproj", "{F97728FA-34A4-4D1A-B132-61FDEB1EAB4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DD01B49-0043-44BA-9A1B-686EDD0E66F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD01B49-0043-44BA-9A1B-686EDD0E66F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD01B49-0043-44BA-9A1B-686EDD0E66F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD01B49-0043-44BA-9A1B-686EDD0E66F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CA36A67-9847-481F-A4D6-2F5DEEBC1254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CA36A67-9847-481F-A4D6-2F5DEEBC1254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CA36A67-9847-481F-A4D6-2F5DEEBC1254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CA36A67-9847-481F-A4D6-2F5DEEBC1254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31F7EBE4-A549-471E-BC7A-F4E9D86C81BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F7EBE4-A549-471E-BC7A-F4E9D86C81BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F7EBE4-A549-471E-BC7A-F4E9D86C81BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F7EBE4-A549-471E-BC7A-F4E9D86C81BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{687373E3-D852-4E17-8080-E8E60C17A373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{687373E3-D852-4E17-8080-E8E60C17A373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{687373E3-D852-4E17-8080-E8E60C17A373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{687373E3-D852-4E17-8080-E8E60C17A373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA12515-A26D-4D9F-BB4A-C16F7626DB9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA12515-A26D-4D9F-BB4A-C16F7626DB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA12515-A26D-4D9F-BB4A-C16F7626DB9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA12515-A26D-4D9F-BB4A-C16F7626DB9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA756751-0C7A-4370-9DE5-B18C7133880A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA756751-0C7A-4370-9DE5-B18C7133880A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA756751-0C7A-4370-9DE5-B18C7133880A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA756751-0C7A-4370-9DE5-B18C7133880A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{853F6407-46B8-4F97-82A0-3F02DFAAC432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{853F6407-46B8-4F97-82A0-3F02DFAAC432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{853F6407-46B8-4F97-82A0-3F02DFAAC432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{853F6407-46B8-4F97-82A0-3F02DFAAC432}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F97728FA-34A4-4D1A-B132-61FDEB1EAB4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F97728FA-34A4-4D1A-B132-61FDEB1EAB4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F97728FA-34A4-4D1A-B132-61FDEB1EAB4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F97728FA-34A4-4D1A-B132-61FDEB1EAB4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6DD01B49-0043-44BA-9A1B-686EDD0E66F4} = {E3052939-58C0-4155-8F6E-F759CCFA00A4}
+		{0CA36A67-9847-481F-A4D6-2F5DEEBC1254} = {51AB12DB-ED53-4392-9853-82BF2D94FE4E}
+		{E1CA2E18-BD90-46B4-B3EC-22B6E7A3BA15} = {51AB12DB-ED53-4392-9853-82BF2D94FE4E}
+		{31F7EBE4-A549-471E-BC7A-F4E9D86C81BD} = {E1CA2E18-BD90-46B4-B3EC-22B6E7A3BA15}
+		{687373E3-D852-4E17-8080-E8E60C17A373} = {6284305F-7A04-4997-A5A8-CBD4B0BFEDEA}
+		{ADA12515-A26D-4D9F-BB4A-C16F7626DB9C} = {EDC1A163-F5AD-4364-9AE7-08426E6CB798}
+		{FA756751-0C7A-4370-9DE5-B18C7133880A} = {EDC1A163-F5AD-4364-9AE7-08426E6CB798}
+		{853F6407-46B8-4F97-82A0-3F02DFAAC432} = {3626E103-2966-4AF2-98B9-3252A39B5189}
+		{F97728FA-34A4-4D1A-B132-61FDEB1EAB4E} = {3626E103-2966-4AF2-98B9-3252A39B5189}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDAF9766-ADC7-4473-B927-A17E906AAE45}
+	EndGlobalSection
+EndGlobal

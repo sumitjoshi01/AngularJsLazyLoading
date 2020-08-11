@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AngularJsRoutingPoc.Business.Interfaces\AngularJsRoutingPoc.Business.Interfaces.csproj" />
+    <ProjectReference Include="..\AngularJsRoutingPoc.DataAccess.Interfaces\AngularJsRoutingPoc.DataAccess.Interfaces.csproj" />
+    <ProjectReference Include="..\AngularJsRoutingPoc.Entities\AngularJsRoutingPoc.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

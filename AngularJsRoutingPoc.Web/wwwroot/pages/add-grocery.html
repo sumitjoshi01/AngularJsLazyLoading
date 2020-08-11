@@ -1,0 +1,45 @@
+﻿<h1 class="mt-5">Add Item</h1>
+
+<div class="row">
+    <div class="col-md-6">
+        <form name="GroceryForm" novalidate ng-submit="AddGrocery()">
+            <div class="form-group">
+                <label for="itemName">Name</label>
+                <input type="text" id="itemName" name="itemName" class="form-control" ng-model="GroceryModel.Name" ng-required="true" />
+                <span class="validation-msg" ng-show="(GroceryForm.$submitted || GroceryForm.itemName.$touched) && GroceryForm.itemName.$error.required">Please enter item name</span>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="quantity">Quantity</label>
+                        <input type="number" id="quantity" name="quantity" class="form-control" ng-required="true" ng-model="GroceryModel.Quantity" />
+                        <span class="validation-msg" ng-show="(GroceryForm.$submitted || GroceryForm.quantity.$touched) && GroceryForm.quantity.$error.required">Please select quantity</span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="quantity">Unit</label>
+                        <select id="unit" name="unit" class="form-control" ng-model="GroceryModel.MeasuringUnit" ng-options="item for item in UnitList" ng-required="true">
+                            <option value="">-- select --</option>
+                        </select>
+                        <span class="validation-msg" ng-show="(GroceryForm.$submitted || GroceryForm.unit.$touched) && GroceryForm.unit.$error.required">Please enter unit</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <input type="submit" id="addBtn" name="addBtn" class="btn btn-primary" ng-disabled="GroceryForm.$invalid" />
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <input type="button" id="clrBtn" name="clrBtn" class="btn btn-info" ng-click="ResetGroceryForm()" value="Reset" />
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
