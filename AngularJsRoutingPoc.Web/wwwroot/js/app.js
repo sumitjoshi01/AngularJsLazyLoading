@@ -9,7 +9,7 @@
             {
                 url: "/AddGrocery",
                 views: {
-                    "lazyLoadViews": {
+                    "appView": {
                         controller: 'GroceryController',
                         templateUrl: 'pages/add-grocery.html'
                     }
@@ -26,7 +26,7 @@
             .state('GroceryList', {
                 url: "/GroceryList",
                 views: {
-                    "lazyLoadViews": {
+                    "appView": {
                         controller: 'GroceryController',
                         templateUrl: 'pages/grocery-list.html'
                     }
@@ -43,7 +43,7 @@
             .state('Default', {
                 url: '',
                 views: {
-                    "lazyLoadViews": {
+                    "appView": {
                         templateUrl: 'pages/home.html'
                     }
                 }
