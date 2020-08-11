@@ -1,9 +1,8 @@
+using AngularJsRoutingPoc.Web.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Rewrite;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using AngularJsRoutingPoc.Web.Extensions;
 namespace AngularJsRoutingPoc.Web
 {
     public class Startup

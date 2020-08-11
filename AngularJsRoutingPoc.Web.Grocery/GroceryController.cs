@@ -1,7 +1,6 @@
 ﻿using AngularJsRoutingPoc.Business.Interfaces;
 using AngularJsRoutingPoc.Entities;
 using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
