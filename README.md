@@ -1,0 +1,4 @@
+# AngularJsLazyLoading
+This is a demo application of Grocery manager to demonstrate how Angular JS Routing works and how we can lazy load the controllers based on current route without loading all the stuff on home page. This is a single page application created using .Net Core as backend and AngularJS as frontend. In this application a user can add a grocery item and it will be saved on server and same will be visible in gocery list which will be fetched from server.
+
+This is a POC application, main purpose of application is to show how application chunks are loaded on demand based on requirment without refreshing the page. Additional functionality can be added and this can be improved more.
