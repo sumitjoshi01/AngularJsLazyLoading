@@ -3,7 +3,7 @@
 
     var routingPocApp = angular.module('RoutingPocApp', ['oc.lazyLoad', 'ui.router']);
 
-    routingPocApp.config(['$provide', '$stateProvider', function ($provide, $stateProvider) {
+    routingPocApp.config(['$provide', '$stateProvider', '$locationProvider', function ($provide, $stateProvider, $locationProvider) {
 
         $stateProvider.state('AddGrocery',
             {
@@ -56,15 +56,11 @@
 
         $provide.value('appConfig', configObj);
 
-        //$locationProvider.html5Mode({
-        //    enabled: true,
-        //    requireBase: false
-        //});
+        $locationProvider.html5Mode({
+            enabled: true,
+            requireBase: false
+        });
 
     }]);
-
-
-
-
 
 })();
